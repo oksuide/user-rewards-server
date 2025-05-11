@@ -1,0 +1,14 @@
+server:
+  port: "8080"
+
+database:
+  host: "db"
+  port: "5432"
+  user: "postgres"
+  password: "postgres"
+  name: "rewards"
+  ssl_mode: "disable"
+
+jwt:
+  secret_key: "supersecretkey"
+  expiration: 12h
